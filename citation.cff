@@ -1,10 +1,14 @@
-cff-version: 1.2.0 
-message: "If you use this, cite it!" 
-authors: 
-	-family-names: "Walsh"
-	given-names: "Jonathan D."
-	orcid: "https://orcid.org/0000-0001-9931-7689"
-title: "Microphone Vibration MATLAB Code"
-version: "1.0.0"
-date-released: "2021-08-11"
-url: "https://github.com/clopnaz/"
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Microphone Vibration MATLAB Code
+message: 'If you use this, cite it!'
+type: software
+authors:
+  - given-names: Jonathan
+    family-names: Walsh
+    name-particle: 'D. '
+    email: clopnaz@gmail.com
+    affiliation: Binghamton University
+    orcid: 'https://orcid.org/0000-0001-9931-7689'
