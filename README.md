@@ -4,7 +4,7 @@ Several acoustic duct transfer matrices useful in microphone vibration
 ## usage
 
 ### straightpipe.m 
-```T = straightpipe(length)``` creates the transfer matrix for an acoustical duct with a uniform area of length ```length```
+```T = straightpipe(kL)``` creates the transfer matrix for an acoustical duct with a uniform area using ```kL=2*pi*f*length/c``` from ```f```, the frequency of the sound propagating through the duct and the total ```length``` of the pipe segment. 
 ### junction.m
 ```T = junction(area_ratio)``` creates the transfer matrix for a junction between two different pipes (also called an area discontinuity). If the first pipe area is ```s_1``` and the second pipe area is ```s_2```, area ratio should be ```s_1/s_2```. 
 
