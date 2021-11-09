@@ -1,4 +1,4 @@
-# mic-vib-matrices
+# microphone vibration MATLAB code
 Several acoustic duct transfer matrices useful in microphone vibration
 
 ## usage
